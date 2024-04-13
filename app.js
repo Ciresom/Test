@@ -1,57 +1,57 @@
 const cardArray = [
     {
         name: 'fries',
-        img: 'images/fries.jpg',
+        img: 'images/fries.png',
     },
     {
         name: 'burger',
-        img: 'images/burger.jpg',
+        img: 'images/burger.png',
     },
     {
         name: 'icecream',
-        img: 'images/icecream.jpg',
+        img: 'images/icecream.png',
     },
     {
         name: 'smoothie',
-        img: 'images/smoothie.jpg',
+        img: 'images/smoothie.png',
     },
     {
         name: 'hotdog',
-        img: 'images/hotdog.jpg',
+        img: 'images/hotdog.png',
     },
     {
         name: 'pizza',
-        img: 'images/pizza.jpg',
+        img: 'images/pizza.png',
     },
     {
         name: 'icecream',
-        img: 'images/icecream.jpg',
+        img: 'images/icecream.png',
     },
     {
         name: 'hotdog',
-        img: 'images/hotdog.jpg',
+        img: 'images/hotdog.png',
     },
     {
         name: 'fries',
-        img: 'images/fries.jpg',
+        img: 'images/fries.png',
     },
     {
         name: 'burger',
-        img: 'images/burger.jpg',
+        img: 'images/burger.png',
     },
     {
         name: 'smoothie',
-        img: 'images/smoothies.jpg',
+        img: 'images/smoothies.png',
     },
     {
         name: 'pizza',
-        img: 'images/pizza.jpg',
+        img: 'images/pizza.png',
     },
 
 ]
 cardArray.sort(() => 0.5 - Math.random())
 
-const gridDisplay = document.querySelector('#grid')
+const grid = document.querySelector('#grid')
 
 function createBoard(){
     for(let i = 0; i < 10; i++){
@@ -59,7 +59,6 @@ function createBoard(){
        card.setAttribute('src', 'images/back.png')
        card.setAttribute('data-id', i)
        gridDisplay.appendChild(card)
-
     }
 }
 
