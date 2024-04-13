@@ -59,7 +59,6 @@ function createBoard(){
        card.setAttribute('src', 'images/back.jpg')
        card.setAttribute('data-id', i)
        gridDisplay.appendChild(card)
-       console.log(card, i)
 
     }
 }
