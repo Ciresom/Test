@@ -1,52 +1,52 @@
 const cardArray = [
     {
         name: 'fries',
-        img: 'images/fries.png',
+        img: 'images/fries.png'
     },
     {
         name: 'burger',
-        img: 'images/burger.png',
+        img: 'images/burger.png'
     },
     {
         name: 'icecream',
-        img: 'images/icecream.png',
+        img: 'images/icecream.png'
     },
     {
         name: 'smoothie',
-        img: 'images/smoothie.png',
+        img: 'images/smoothie.png'
     },
     {
         name: 'hotdog',
-        img: 'images/hotdog.png',
+        img: 'images/hotdog.png'
     },
     {
         name: 'pizza',
-        img: 'images/pizza.png',
+        img: 'images/pizza.png'
     },
     {
         name: 'icecream',
-        img: 'images/icecream.png',
+        img: 'images/icecream.png'
     },
     {
         name: 'hotdog',
-        img: 'images/hotdog.png',
+        img: 'images/hotdog.png'
     },
     {
         name: 'fries',
-        img: 'images/fries.png',
+        img: 'images/fries.png'
     },
     {
         name: 'burger',
-        img: 'images/burger.png',
+        img: 'images/burger.png'
     },
     {
         name: 'smoothie',
-        img: 'images/smoothies.png',
+        img: 'images/smoothies.png'
     },
     {
         name: 'pizza',
-        img: 'images/pizza.png',
-    },
+        img: 'images/pizza.png'
+    }
 
 ]
 cardArray.sort(() => 0.5 - Math.random())
